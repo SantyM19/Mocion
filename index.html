@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment: Video Games</title>
+    <Link rel=StyleSheet href="Styles.css" type="text/css"></Link>
+</head>
+<body>
+    <div class="welcome" id="welcome">
+        <h1>Welcome to the 
+            <br> 
+            Trivia Challenge.
+        </h1>
+        <p>You will be Presented
+            <br>
+            with 11 True or False
+            <br>
+            questions.
+        </p>
+        <br>
+        <p>
+             Can you Score 100%?
+        </p>
+        <br>
+        <button type="button" id="button">BEGIN</button>
+    </div>
+
+    <div class="PlayGame" id="PlayGame">
+        <h2>Entertainment: Video Games
+        </h2>
+        <div class="Play" id="play1">
+            <p>Untuned originally
+                <br>
+                started as a Roblox
+                <br>
+                game.
+            </p>
+        </div>
+        <div class="Play play2" id="play2">
+            <h3 id="category">Category</h3>
+            <p id="question">Question Here</p>
+            <br>
+            <form action="/action_page.php">
+                <input type="radio" name="Bolean" value="true" checked>
+                <label for="true">TRUE</label>
+                <input type="radio" name="Bolean" value="false">
+                <label for="false">FALSE</label>
+                <br>
+                <br>
+                <button type="button" id="Go" onclick="FunctionNextQ()">Next</button>
+            </form>
+        </div>
+        <br>
+        <p>
+             <span id="span1">0</span> of 11
+        </p>
+        <br>
+    </div>
+
+    <div class="Scores" id="Scores">
+        <h2>You scored 
+            <br> 
+            <span id="goals">0</span> / 11
+        </h2>
+        <p class="ce" id="err">Untuned originally
+            <br>
+            started as a Roblox
+            <br>
+            game.
+        </p>
+        <br>
+        <p>
+            The Questions Answers
+        </p>
+        <br>
+        <button type="button" onclick='myFunction2()'>Try Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+/*
+Se inicia Desarrollo pensando primero en dispositivos moviles
+*/
+
+body{
+    text-align: center;
+    background-color: black;
+}
+
+div{
+    background-color: white;
+    width: 100%;
+}
+
+.Play{
+    display: block;
+    margin: 0px;
+}
+
+/*
+Se ocultan los objetos que hacen referencia a los wirefirmes 2 y 3
+*/
+
+.PlayGame{
+    display: none;
+}
+
+.Scores{
+    display: none;
+}
+
+h1, h2, h3{
+    color:rgba(240,4,71,1); 
+}
+
+/*
+Stilo para los botones
+*/
+
+button{
+    display: block;
+    margin: auto;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-top: 4%;
+    margin-bottom: 6%;
+    border-style: none;
+    background-color:  #ff7d97;
+    color: black;
+    width: 220px;
+    height: 40px;
+  }
+
+button:hover{
+    cursor: pointer;
+    background: rgb(48,63,140);
+    background: radial-gradient(circle, rgba(48,63,140,1) 0%, rgba(240,4,71,1) 94%, rgba(255,125,151,1) 100%);
+    color: white;
+  }
+
+  .ce{
+      text-align: left;
+      margin: 5%;
+  }
+
+/*
+una Query para dispositiovos mas grandes 
+*/
+
+@media screen and (min-width: 480px){
+    div{
+        width: 350px;
+        margin: auto;
+    }
+
+    .Scores{
+        padding: 0%;
+    }
+
+    .PlayGame{
+        padding: 5%;
+        display: none;
+    }
+    
+    .Scores{
+        display: none;
+        padding: 5%;
+    }
+
+}
