@@ -1,2 +1,2 @@
-# Nocion
+# Mocion
 Video Game for Notion
