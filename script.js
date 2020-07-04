@@ -151,7 +151,7 @@ function Analitics(){
 function Errors(){
     txt="";
     for (i=0;i<11;i++){
-        txt = `${txt}CATEGORY: ${QuestionsArray[i].CategoryName}<br>${i+1}. ${QuestionsArray[i].QuestioName}<br>THE TRUE ANSWER: ${QuestionsArray[i].BooleanAnswer}<br>YOUR ANSWER: ${QuestionsArray[i].UserAnswer}<br> ABAUT ANSWER: ${QuestionsArray[i].TrueAnswer}<br><br>`;
+        txt = `${txt}CATEGORY: ${QuestionsArray[i].CategoryName}<br>${i+1}. ${QuestionsArray[i].QuestioName}<br>THE TRUE ANSWER: ${QuestionsArray[i].BooleanAnswer}<br>YOUR ANSWER: ${QuestionsArray[i].UserAnswer}<br> ABOUT ANSWER: ${QuestionsArray[i].TrueAnswer}<br><br>`;
         //console.log(txt);
     }
     return txt;
